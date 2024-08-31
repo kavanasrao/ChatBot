@@ -1,0 +1,247 @@
+
+{
+    "intents":[
+        {
+            "Intent": "Greeting",
+            "examples":[
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Good Evening"
+            ],
+            "responses":[
+                "Hello! How Can I Help you today?",
+                "hi there, What can i do for you?",
+                "Good Morning! How can I assist you?",
+                "Good evening! How can I help you?"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "Intent": "Goodbye",
+            "examples":[
+                "goodbye",
+                "will back later!",
+                "bye",
+                "catch you later"
+            ],
+            "responses":[
+                "Good! bye",
+                "ok! see you later!",
+                "bye! take care",
+                "I'll keep in touch"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "Intent":"Thanks!",
+            "examples":[
+                "Thank you!",
+                "Thanks!",
+                "It's feel better after having Conversation with you",
+                "Thanks! for your help!"
+            ],
+            "responses":[
+                "You're Welcome!",
+                "My Pleasure!",
+                "Glad I Could help you!",
+                "Pleased to help you!"
+            ],
+            "Context":[
+                "Thanks"
+            ]
+        },
+        {
+            "Intent":"help!",
+            "examples":[
+                "Could you help me, please?",
+                "Can I have a bit of Conversation with you ?",
+                "Can I share my thoughts ?",
+                "I am stuck in a whirlpool of thoughts, How do I get out of that ?"
+            ],
+            "responses":[
+                "Sure, I will",
+                "Yes,You can",
+                "I'm all ears",
+                "Share your whirlpool of thoughts,and we'll find the way together"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "Intent":"Stress",
+            "examples":[
+                "A lot of work pressure!",
+                "Family pressure.",
+                "Can't cope with new projects.",
+                "Overburdened with tasks."
+            ],
+            "responses":[
+                "Manage your time,follow daily routines",
+                "Provide sometime,and try to explain yourself",
+                "Don't give up. Everything is possible. Change your frame of reference, and you can see 'I am possible in impossible.'",
+                "Try to put your tasks in 'Do's and Dont's table' "
+            ],
+            "Context":[
+                "Stress"
+            ]
+        },
+        {
+            "Intent":"Anger",
+            "examples":[
+                "I get anger Very easily",
+                "When someone talks about me, I lose control",
+                "Sometimes I don't know what to do with certain situations,and I lose control on myself",
+                "I easily get angry over pretty small things"
+            ],
+            "responses":[
+                "Close your eyes,and take a deep breath",
+                "Just focus on you, your work, and your path",
+                "Don't think about anything. Try to calm yourself. Listen to the best music, especially instrumental music with a frequency of 35 Hz to 40 Hz.",
+                "Start analyzing yourself, and tell me: Why is this happening? Since when has this been happening? Is it related to any particular day or incident? May I know that?"
+            ],
+            "Context":[
+                "Anger"
+            ]
+        },
+        {
+            "Intent":"Suggestions",
+            "examples":[
+                "Give me Some suggestions get control over anger, and to healup my mind",
+                "how to focus on work",
+                "How to manage the time",
+                "how to Find Happiness"
+            ],
+            "responses":[
+                "If you need suggestions for calm down your mind or something, making a decision, or getting through a particular situation, feel free to share more details. Whether it's related to personal isuues or anything else, I’m here to help",
+                "Include meditations and excirse for your daily routine",
+                "try follow your routines, with knee observations",
+                "Try to use Do's and Dont's table!",
+                "start Enjoying over little things!"
+            ],
+            "Context":[
+                "Suggestions"
+            ]
+        },
+        {
+            "Intent":"Tales",
+            "examples":[
+              "Tell me some Tales."
+            ],
+            "responses":[
+                "Certainly! ",
+                "The Tale of King Vikramaditya:",
+                "In ancient Kashi, King Vikramaditya, a ruler of great foresight, envisioned a future beyond his reign.",
+                "Anticipating his transition, he embarked on a grand endeavor: to establish a splendid new town across the riverbank.",
+                "With meticulous planning and boundless zeal, the king orchestrated the construction of this new haven, complete with elegant streets, lush gardens, and vibrant marketplaces.",
+                "His vision was to create a flourishing sanctuary for his people and himself after his term ended.",
+                "As the new town rose from the fertile land, it became a beacon of prosperity and harmony.",
+                "When the time came for the king’s departure from Kashi, he crossed the river to his new abode, which had become a testament to his enduring legacy.",
+                "King Vikramaditya's foresight ensured that both Kashi and his new town thrived, leaving behind a legacy of wisdom and elegance that inspired generations to come."
+            ],
+            "Context":[
+                "Tales"
+            ]
+        },
+        {
+            "Intent":"Story",
+            "examples":[
+                "Inspiring Story"
+            ],
+            "responses":[
+                " Dr. A.P.J. Abdul Kalam, known as the 'Missile Man of India,'faced numerous challenges on his journey to greatness. ",
+                "Born into a humble family in Rameswaram, he battled financial hardships from a young age, selling newspapers to support his education. ",
+                "Despite these struggles, his determination and passion for learning never wavered.",
+                "Rejected by the Indian Air Force, he turned his focus to aeronautical engineering, eventually joining DRDO and ISRO.",
+                "His path was fraught with failures and setbacks, but each obstacle only fueled his resolve.",
+                "Through perseverance and dedication, he played a pivotal role in India's space and missile programs, rising from a small-town boy to become one of the nation's most beloved scientists and the 11th President of India.",
+                "Dr. Kalam's life is a testament to overcoming adversity with unwavering determination and humility."
+            ],
+            "Context":[
+                "stories"
+            ]
+
+        },
+        {
+            "Intent":"Doctor's info",
+            "examples":[
+                "provide some Doctors address"
+            ],
+            "responses":[
+                "name: abc",
+                "address: ------",
+                "phone number : 080 *******",
+                "email id : *****@****.com"
+            ],
+            "Context":[
+                "Info"
+            ]
+        },
+        {
+            "Intent": "Music",
+            "examples":[
+                "Instrument music",
+                
+                "Om Chanting"
+            ],
+            "responses":[
+                "'Instrument link' : https://bit.ly/345mB3V"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "Intent":"Healing sounds",
+            "examples":[
+                "Give Some different Frequencies"
+            ],
+            "responses":[
+                "Particular frequency :'40-Hz':https://youtu.be/1_G60OdEzXs",
+                 "'Om Chatting':https://www.youtube.com/watch?v=8sYK7lm3UKg&t=141s&pp=ygULb20gY2hhbnRpbmc%3D"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "Intent":"datetime",
+            "examples":[
+                "Today's date ",
+                "now"
+            ],
+            "responses":[
+                "Date and Time"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        
+        {
+            "Intent": "activity",
+            "examples": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {"Intent":"Identity",
+        "examples": [
+            "Who are you",
+            "what are you"
+        ],
+        "responses": [
+            "I am DhiTvam, a Deep-Learning chatbot"
+        ]
+    }
+    
+    ]
+}
