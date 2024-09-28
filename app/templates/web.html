@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot - DiTvam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #nav {
+            padding: 10px;
+            background-color: #DB7093;
+            color: white;
+            border-radius: 0 15px 15px 0;
+            cursor: pointer; 
+            text-align: right; 
+            position: fixed; 
+           
+        }
+        #nav a {
+            color: white;
+            text-decoration: none; 
+            margin-left: 0px; 
+        }
+
+        #chatbox {
+            width: 80%;
+            height: 400px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 20px auto;
+            overflow-y: scroll;
+            background-color: rgba(249, 249, 249, 0.8); 
+            background-image: url('https://th.bing.com/th/id/OIP.jz_u0Nhq7xLPYW5Xr3zNUQHaEK?rs=1&pid=ImgDetMain');
+            background-size: cover; 
+            background-position: center;
+            border-radius: 8px; 
+        }
+        .user, .bot {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 15px; 
+            max-width: 70%; 
+            display: inline-block;
+        }
+        .user {
+            text-align: right;
+            background-color: #3c9d9b; 
+            color: white;
+            border-bottom-right-radius: 0;
+        }
+        #input-container {
+            display: flex; 
+            justify-content: flex-end; 
+            margin: 20px auto; 
+            width: 80%; 
+        }
+        #user-input {
+            flex: 1; 
+            border-radius: 15px 0 0 15px; 
+            border: 1px solid #ccc; 
+            outline: none; 
+            width: 70%;
+            padding: 10px;
+            margin: 20px auto;
+            border-radius: 15px;
+            display: block;
+        }
+       
+        #send-btn {
+            padding: 10px;
+            background-color: #DB7093;
+            color: white;
+            border: none;
+            right: 30px;
+            border-radius: 0 15px 15px 0;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+
+<div id="nav">
+    <a href="{{ url_for('logout') }}">Logout</a>
+ </div>
+
+<div id="chatbox">
+    <div id="chat-content"></div>
+</div>
+
+<div id="input-container">
+    <input type="text" id="user-input" placeholder="Type a message..." />
+    <button id="send-btn">Send</button>
+</div>
+
+
+<script>
+    const chatbox = document.getElementById('chatbox');
+    const chatContent = document.getElementById('chat-content');
+    const userInput = document.getElementById('user-input');
+    const sendBtn = document.getElementById('send-btn');
+    
+
+
+    function appendMessage(sender, message) {
+        const msgDiv = document.createElement('div');
+        msgDiv.classList.add(sender);
+        msgDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
+        chatContent.appendChild(msgDiv);
+        chatbox.scrollTop = chatbox.scrollHeight;  
+    }
+
+    sendBtn.addEventListener('click', () => {
+        const userText = userInput.value;
+        if (userText === '') return;
+        appendMessage('you', userText);
+        
+        // Send the user input to the server via AJAX
+        fetch("/get_response", {
+            method: "POST",
+            body: new URLSearchParams({
+                message: userText
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            appendMessage('bot', data.response);
+        })
+        .catch(error => console.log('Error:', error));
+
+        userInput.value = '';  // Clear the input
+    });
+
+    userInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            sendBtn.click();
+        }
+    });
+
+  
+    
+</script>
+
+</body>
+</html>
