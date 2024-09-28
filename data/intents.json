@@ -1,0 +1,403 @@
+
+{
+    "Intents":[
+        {
+            "tag": "Greeting",
+            "examples":[
+                "Hello",
+                "Hi"
+                
+            ],
+            "responses":[
+                "Hello! How Can I Help you today?",
+                "hi there, What can i do for you?"
+               
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "tag" : "MorningWishes",
+            "examples" : [
+                "Good Morning",
+                "Morning morning",
+                "G'morning",
+                "Wakey, wakey",
+                "Happy morning"
+            ],
+
+            "responses": [
+                "Very Good Morning",
+                "Good Morow",
+                "Good Morning :) have a nice day"
+            
+            ]
+        },
+        {
+            "tag" :"EveningWishes",
+            "examples" : [
+                "Good evening",
+                "G'evening"
+            ],
+            "responses": [
+                "good evening",
+                "have a great evening"
+            
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "examples":[
+                "goodbye",
+                "will back later!",
+                "bye",
+                "catch you later"
+            ],
+            "responses":[
+                "Good! bye",
+                "ok! see you later!",
+                "bye! take care",
+                "I'll keep in touch"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "tag":"Thanks!",
+            "examples":[
+                "Thank you!",
+                "Thanks!",
+                "It's feel better after having Conversation with you",
+                "Thanks! for your help!"
+            ],
+            "responses":[
+                "You're Welcome!",
+                "My Pleasure!",
+                "Glad I Could help you!",
+                "Pleased to help you!"
+            ],
+            "Context":[
+                "Thanks"
+            ]
+        },
+        {
+            "tag":"help!",
+            "examples":[
+                "I need to talk with you",
+                "I would like to chat with you...",
+                "I need your help ",
+                "Could you help me, please?",
+                "Can I have a bit of Conversation with you ?",
+                "Can I share my thoughts ?",
+                "I am stuck in a whirlpool of thoughts, How do I get out of that ?"
+            ],
+            "responses":[
+                "Sure, I will",
+                "Yes,You can",
+                "I'm all ears",
+                "Share your whirlpool of thoughts,and we'll find the way together"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "tag":"Stress",
+            "examples":[
+                "A lot of work pressure!",
+                "Family pressure.",
+                "Can't cope with new projects.",
+                "Overburdened with tasks."
+            ],
+            "responses":[
+                "Manage your time,follow daily routines",
+                "Provide sometime,and try to explain yourself",
+                "Don't give up. Everything is possible. Change your frame of reference, and you can see 'I am possible in impossible.'",
+                "Try to put your tasks in 'Do's and Dont's table' "
+            ],
+            "Context":[
+                "Stress"
+            ]
+        },
+        {
+            "tag":"Anger",
+            "examples":[
+                "I get anger Very easily",
+                "When someone talks about me, I lose control",
+                "Sometimes I don't know what to do with certain situations,and I lose control on myself",
+                "I easily get angry over pretty small things"
+            ],
+            "responses":[
+                "Close your eyes,and take a deep breath",
+                "Just focus on you, your work, and your path",
+                "Don't think about anything. Try to calm yourself. Listen to the best music, especially instrumental music with a frequency of 35 Hz to 40 Hz.",
+                "Start analyzing yourself, and tell me: Why is this happening? Since when has this been happening? Is it related to any particular day or incident? May I know that?"
+            ],
+            "Context":[
+                "Anger"
+            ]
+        },
+        {
+            "tag":"Suggestions",
+            "examples":[
+                "Give me Some suggestions get control over anger, and to healup my mind",
+                "how to focus on work",
+                "How to manage the time",
+                "how to Find Happiness"
+            ],
+            "responses":[
+                "If you need suggestions for calm down your mind or something, making a decision, or getting through a particular situation, feel free to share more details. Whether it's related to personal isuues or anything else, I’m here to help",
+                "Include meditations and excirse for your daily routine",
+                "try follow your routines, with knee observations",
+                "Try to use Do's and Dont's table!",
+                "start Enjoying over little things!"
+            ],
+            "Context":[
+                "Suggestions"
+            ]
+        },
+        {
+            "tag":"Tales",
+            "examples":[
+              "Tell me some Tales."
+            ],
+            "responses":[
+               " Certainly!  The Tale of King Vikramaditya: In ancient Kashi, King Vikramaditya, a ruler of great foresight, envisioned a future beyond his reign.Anticipating his transition, he embarked on a grand endeavor: to establish a splendid new town across the riverbank. With meticulous planning and boundless zeal, the king orchestrated the construction of this new haven, complete with elegant streets, lush gardens, and vibrant marketplaces. His vision was to create a flourishing sanctuary for his people and himself after his term ended.As the new town rose from the fertile land, it became a beacon of prosperity and harmony.When the time came for the king’s departure from Kashi, he crossed the river to his new abode, which had become a testament to his enduring legacy. King Vikramaditya's foresight ensured that both Kashi and his new town thrived, leaving behind a legacy of wisdom and elegance that inspired generations to come."
+            ],
+            "Context":[
+                "Tales"
+            ]
+        },
+        {
+            "tag":"Story",
+            "examples":[
+                "Inspiring Story"
+            ],
+            "responses":[
+                " Dr. A.P.J. Abdul Kalam, known as the 'Missile Man of India,'faced numerous challenges on his journey to greatness. Born into a humble family in Rameswaram, he battled financial hardships from a young age, selling newspapers to support his education. Despite these struggles, his determination and passion for learning never wavered. Rejected by the Indian Air Force, he turned his focus to aeronautical engineering, eventually joining DRDO and ISRO. His path was fraught with failures and setbacks, but each obstacle only fueled his resolve. Through perseverance and dedication, he played a pivotal role in India's space and missile programs, rising from a small-town boy to become one of the nation's most beloved scientists and the 11th President of India.Dr. Kalam's life is a testament to overcoming adversity with unwavering determination and humility."
+            ],
+            "Context":[
+                "stories"
+            ]
+
+        },
+        {
+            "tag":"Doctor's info",
+            "examples":[
+                "provide some Doctors address"
+            ],
+            "responses":[
+                "name: abc , address: ------,phone number : 080 ******* email id : *****@****.com"
+            ],
+            "Context":[
+                "Info"
+            ]
+        },
+        {
+            "tag": "Music",
+            "examples":[
+                "Instrument music",
+                
+                "Om Chanting"
+            ],
+            "responses":[
+                "'Instrument link': https://bit.ly/345mB3V"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "tag": "riddle",
+            "examples": [
+            "Ask me a riddle",
+            "Ask me a question",
+            "Riddle"
+            ],
+            "responses": [
+            "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+            "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+            " How can a girl go 25 days without sleep?.....She sleeps and night!",
+            "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+            " What will you actually find at the end of every rainbow?.....The letter 'w'",
+            "What can be caught but never thrown?.....A cold!",
+            "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+            " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+            "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+            "riddles"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "examples": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "examples": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "examples": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "insult",
+            "examples": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "haha",
+            "examples": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "examples": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "examples": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+       
+        {
+            "tag": "jokes",
+            "examples": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag":"Healing sounds",
+            "examples":[
+                "Give Some different Frequencies"
+            ],
+            "responses":[
+                "Particular frequency :'40-Hz':https://youtu.be/1_G60OdEzXs",
+                 "'Om Chatting':https://www.youtube.com/watch?v=8sYK7lm3UKg&t=141s&pp=ygULb20gY2hhbnRpbmc%3D"
+            ],
+            "Context":[
+                ""
+            ]
+        },
+        {
+            "tag":"datetime",
+            "examples":[
+                "Today's date ",
+                "now"
+            ],
+            "responses":[
+                 "Sure! Here’s the current date and time."
+            ]
+        },
+        
+        {
+            "tag": "activity",
+            "examples": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag":"Identity",
+            "examples": [
+                "Who are you",
+                "what are you"
+            ],
+        "responses": [
+            "I am DhiTvam, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag" : "about",
+            "examples" : [
+                "Tell me about you",
+                "Explain about yourself",
+                "May i Know more about u",
+                "What is your function",
+                "What is your work",
+                "What will you do?",
+                "What is your purpose"
+            ],
+            "responses" : [
+                "Well, I am a deep learning chatbot, designed to understand your thoughts and concerns. My goal is to assist you during difficult times, offering support and guidance, much like a human friend would."   
+                     ]
+        }
+    
+    ]
+}
