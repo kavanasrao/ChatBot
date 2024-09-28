@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            width: 98%;
+            height: 20vh;
+            background-color: rgba(255, 0, 81, 0.395);
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: white;
+        }
+        .auth-links {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .auth-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        .container {
+            display: flex;
+            height: 80vh;
+        }
+        .chatbot {
+            width: 40%;
+            background: #f4f4f9;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .explanation {
+            width: 60%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .chatbot img {
+            max-width: 100%;
+        }
+        .explanation h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1> Dhi_Tvam </h1>
+        <div class="auth-links">
+            <a href = "{{url_for('about')}}">About Us</a>
+            <a href="{{ url_for('login') }}">Login</a>  
+            <a href="{{ url_for('signup') }}">Sign Up</a> 
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="chatbot">
+            <img src="https://th.bing.com/th/id/OIG2.PFFU5Wy9wnQdyIczWXcy?pid=ImgGn" alt="Chatbot Robot">
+
+        </div>
+        <div class="explanation">
+            <h2> Welcome to DhiTvam</h2>
+            <h5> your supportive companion! </h5>
+            <p>I'm here to be your virtual friend and confidant, designed to help you explore your thoughts and feelings. Life can bring challenges that may feel overwhelming, but you don’t have to face them alone. </p>
+            <p>My purpose is to provide support and guidance whenever you need it. Think of me as a listening ear and a source of encouragement, ready to help you find clarity and comfort during difficult times. Let's embark on this journey together, where your concerns are heard and understood..</p>
+        </div>
+    </div>
+</body>
+</html>
