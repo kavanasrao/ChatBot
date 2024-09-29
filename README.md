@@ -1,5 +1,6 @@
 # DhiTvam: 
-The Companion for Your Inner Journey
+The Companion for Your Inner Journey.
+
 "Dhi" symbolizes profound understanding, and "Tvam" reflects the essence of you. In a world flooded with chatbots designed for information retrieval, DhiTvam stands apart. Its mission isn’t just to answer questions but to listen, to be there when you need someone the most.
 
 # Because in your moments of silence, DhiTvam listens.
