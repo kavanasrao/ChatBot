@@ -14,13 +14,13 @@ By using this repository, you agree to the legal notice provided below. The auth
 DhiTvam is a proof of concept and an early model for an emotion-aware chatbot aimed at supporting mental health and reducing depression rates in India. The chatbot provides a safe space for users to discuss their emotions, while also detecting emergency situations for potential intervention. It uses Flask, Python, and NLP technologies.
 
 ## 📚 Table of Contents
-. Overview
-. Features
-. Tech Stack
-. Getting Started
-. Current Project Status & Roadmap
-. Contributing
-. License
+ Overview
+ Features
+ Tech Stack
+ Getting Started
+ Current Project Status & Roadmap
+ Contributing
+ License
 
 
 ## 🌟Overview
