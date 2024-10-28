@@ -36,11 +36,11 @@ User Interaction: Simple and intuitive chat interface for seamless communication
 Future Updates: Plans to include animated stories and audio formats for enhanced user engagement.
 
 ## 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Flask (Python)
-Database: MySQL
-Machine Learning: PyTorch, NRCLex for emotion detection
-Deployment: PythonAnywhere, with future plans for AWS
+- Frontend: HTML, CSS, JavaScript
+- Backend: Flask (Python)
+- Database: MySQL
+- Machine Learning: PyTorch, NRCLex for emotion detection
+- Deployment: PythonAnywhere, with future plans for AWS
 
 ## 🚀  Getting Started
 To get a local copy up and running, follow these steps:
