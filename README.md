@@ -5,6 +5,7 @@ The Companion for Your Inner Journey.
 
 # Because in your moments of silence, DhiTvam listens.
 
-!(https://github.com/user-attachments/assets/7e06a2c2-4e3e-4d84-8bab-847c6b6a9398)
+![_82ccb672-a2ae-4f5d-b778-02fc2d175c5f](https://github.com/user-attachments/assets/ff55b930-c29e-466b-b024-d934a3826855)
+
 
 
